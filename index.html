@@ -12,10 +12,178 @@
 </head>
 
 <body>
-  <main id="main">
-    <h1 id="title"></h1>
-  </main>
 
+  <nav id="navbar">
+    <header id="nav-header">JavaScript for Silly People</header>
+    <a href="#Introduction" class="nav-link">Introduction</a>
+    <a href="#What_is_JavaScript?" class="nav-link">What is JavaScript?</a>
+    <a href="#Getting_Started" class="nav-link">Getting Started</a>
+    <a href="#Variables" class="nav-link">Variables</a>
+    <a href="#Conditional_Statements" class="nav-link">Conditional Statements</a>
+    <a href="#While_Loops" class="nav-link">While Loops</a>
+    <a href="#For_Loops" class="nav-link">For Loops</a>
+    <a href="#Functions" class="nav-link">Functions</a>
+    <a href="#Objects" class="nav-link">Objects</a>
+    <a href="#Further_Learning" class="nav-link" id="more">Further Learning</a>
+  </nav>
+
+  <main id="main-doc">
+    <h1 id="title"></h1>
+
+    <section id="Introduction" class="main-section">
+      <header class="section-header">Introduction</header>
+      <p class="info">
+        This guide is for anyone who wants to get into programming, and/or anyone who has chosen web development as their introduction
+        to programming
+      </p>
+      <p class="info">
+        JavaScript is ideal for beginners because the syntax is pretty intuitive. If you were to see
+        <pre>
+<code>if(smart === true) { 
+  thought = "I think therefore I am"; 
+} 
+else { 
+  thought = "hurr durr"; 
+}
+</code>
+        </pre> You would probably have some idea of what was going on (if you don't, don't worry, you will after this guide).
+      </p>
+      <hr>
+    </section>
+
+    <section id="What_is_JavaScript?" class="main-section">
+      <header class="section-header">What is JavaScript?</header>
+      <p class="info">
+        To Quote the MDN Documentation:
+
+        <p class="quote">
+          "JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive."
+        </p>
+      </p>
+      <p class="info">
+        For those of you who don't know that that means (let's say most of you). JavaScript is
+        <i>The</i> Programming language of the Internet. It's built to work in browsers, and has built-in tools to interact
+        with websites.
+      </p>
+      <p class="info">
+        You can use stuff you do in JavaScript to affect the HTML or CSS of a given webpage (if you don't know what those are, don't
+        worry, they won't come up later, but def look them up, they're pretty important).
+      </p>
+      <p class="info">
+        The syntax of how to do that will be outside the scope of this guide, but trust me, that's what JavaScript is used for more
+        than half the time
+      </p>
+      <hr>
+    </section>
+
+    <section id="Getting_Started" class="main-section">
+      <header class="section-header">Getting Started</header>
+      <p class="info">
+        So, the easist way to get access to JavaScript is to open up the developer console on your browser (ctrl + shift + j in chrome).
+        You can even do it on this page! Go ahead, I'll wait...
+      </p>
+      <p class="info">
+        If you want a blank slate to code JavaScript in, you can type in "about:blank" into your browser address window. Either way,
+        try inputting the following code into the console
+      </p>
+      <pre>
+        <code>console.log("Hello World!");</code>
+      </pre>
+      <p class="info">
+        once you hit enter, the next line should show the
+        <i>string</i> "Hello World!"
+      </p>
+      <p class="info">
+        if it does, you're ready to code!
+      </p>
+      <hr>
+    </section>
+
+    <section id="Variables" class="main-section">
+      <header class="section-header">Variables</header>
+      <p class="info">
+        Variables are one of the fundamental building blocks of JavaScript. They are ABSOLUTELY NECCESSARY to understanding JavaScript
+        as a whole. Luckily, they're pretty simple as a concept
+      </p>
+      <p class="info">
+        Think of variables as boxes where you can store computer data. you can declare them (or put data into the box)
+        <code>var foo = 1;</code>
+      </p>
+      <p class="info">
+        and you can re-declare them (or take out what's in there, and put something else there)
+        <code>foo = "bar"</code>
+      </p>
+      <p class="info">
+        Whenever you use these variables in your code, you're essentially dumping the contents of the box right where you wrote the
+        variable name. Try this out!
+        <pre>
+<code>var one = 1;
+var two = 2;
+var result = one + two;
+console.log(result);
+</code>
+        </pre>
+      </p>
+      <p class="info">
+        You should see the number '3' in your console after these lines run. And this example works to show you that variables in
+        JavaScript work a lot like the variables you know and love in math! (yaaaaaaaaaay, math!).
+      </p>
+      <p class="info">
+        variables can contain various different types of data. such as:
+      </p>
+      <ul>
+        <li>numbers</li>
+        <li>"strings" (or words)</li>
+        <li>booleans (either true or false)</li>
+        <li>undefined (essentially nothing)</li>
+        <li>null (also nothing)</li>
+        <li>symbol (this is a really advanced concept, don't worry about it)</li>
+        <li>Functions</li>
+        <li>Objects (the "object-oriented" part of JavaScript)</li>
+      </ul>
+      <hr>
+    </section>
+
+    <section id="Conditional_Statements" class="main-section">
+      <header class="section-header">Conditional Statements</header>
+      <p class="info"></p>
+      <hr>
+    </section>
+
+    <section id="While_Loops" class="main-section">
+      <header class="section-header">While Loops</header>
+      <p class="info"></p>
+      <hr>
+    </section>
+
+    <section id="For_Loops" class="main-section">
+      <header class="section-header">For Loops</header>
+      <p class="info"></p>
+      <hr>
+    </section>
+
+    <section id="Functions" class="main-section">
+      <header class="section-header">Functions</header>
+      <p class="info"></p>
+      <hr>
+    </section>
+
+    <section id="Objects" class="main-section">
+      <header class="section-header">Objects</header>
+      <p class="info"></p>
+      <hr>
+    </section>
+
+    <section id="Further_Learning" class="main-section">
+      <header class="section-header">Further Learning</header>
+      <p class="info">
+        If you would like to learn more about the ins and outs of JavaScript, you can visit the
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">
+          MDN JavaScript Guide
+        </a>
+      </p>
+    </section>
+  </main>
 </body>
 
 </html>
